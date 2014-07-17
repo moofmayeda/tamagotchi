@@ -1,0 +1,8 @@
+.jumbotron {
+  background-image: url("img/tamagotchi.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.life-story {
+  display: none;
+}

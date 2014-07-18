@@ -1,8 +1,23 @@
-.jumbotron {
-  background-image: url("img/tamagotchi.jpg") no-repeat center;
-  background-size: cover;
-}
-
 .life-story {
   display: none;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://images4.fanpop.com/image/photos/19400000/Tamagotchi-iD-Wallpaper-tama-friends-19474642-800-600.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+
+.square-button {
+  /*border-radius: 50%;*/
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: #ED79E0;
 }

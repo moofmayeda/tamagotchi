@@ -45,6 +45,8 @@ $(document).ready(function() {
     var nameInput = $("input").val();
     myPet.initialize(nameInput);
     $("#pet-name").text(myPet.name);
+    $("ul").empty();
+    $("input").val("");
     $(".life-story").show();
     $("#play").click(function(event) {
       myPet.isPlaying();
